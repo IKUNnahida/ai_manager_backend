@@ -1,3 +1,41 @@
-from . import users
+from . import (
+    admin,
+    daily_reports,
+    documents,
+    logs,
+    managments,
+    milestones,
+    notifications,
+    operation_logs,
+    pbc,
+    project_members,
+    projects,
+    risks,
+    roles_permissions,
+    system_settings,
+    tasks,
+    teams,
+    templates,
+    users,
+)
 
-__all__ = ["users"]
+__all__ = [
+    "admin",
+    "daily_reports",
+    "documents",
+    "logs",
+    "managments",
+    "milestones",
+    "notifications",
+    "operation_logs",
+    "pbc",
+    "project_members",
+    "projects",
+    "risks",
+    "roles_permissions",
+    "system_settings",
+    "tasks",
+    "teams",
+    "templates",
+    "users",
+]
