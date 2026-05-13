@@ -1,3 +1,42 @@
-from . import users
+﻿# TODO: 后续新增或拆分 endpoint 模块时，同步维护这里的导入和 __all__ 导出列表。
+from . import (
+    admin,
+    daily_reports,
+    documents,
+    logs,
+    managments,
+    milestones,
+    notifications,
+    operation_logs,
+    pbc,
+    project_members,
+    projects,
+    risks,
+    roles_permissions,
+    system_settings,
+    tasks,
+    teams,
+    templates,
+    users,
+)
 
-__all__ = ["users"]
+__all__ = [
+    "admin",
+    "daily_reports",
+    "documents",
+    "logs",
+    "managments",
+    "milestones",
+    "notifications",
+    "operation_logs",
+    "pbc",
+    "project_members",
+    "projects",
+    "risks",
+    "roles_permissions",
+    "system_settings",
+    "tasks",
+    "teams",
+    "templates",
+    "users",
+]
